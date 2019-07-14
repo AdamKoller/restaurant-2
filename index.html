@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1">
+
+    <link rel='stylesheet' href='main.css' type='text/css'>
+    <link rel='stylesheet' href='reset.css' type='text/css'>
+    <link rel='stylesheet' href='queries.css' type='text/css'>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+    <title>Naomi Rae's</title>
+  </head>
+  <body>
+    <header>
+        <div class="navbar-1">
+          <div>
+            <a href='#about-section'>About</a>
+          </div>
+          <div>
+            <a href='#specials-section'>Specials</a>
+          </div>
+          <div>
+            <a href='#contact-section'>Contact</a>
+          </div>
+        </div>
+        <div class="name">
+          <h1>
+            <span style='color:orange;'>N</span>aomi <span style='color:orange;'>R</span>ae's
+          </h1>
+        </div>
+        <!-- <p>
+          Join us at one of our two St.Louis locations.
+        </p>
+        <div>
+          <div class="button-1">
+            Kirkwood
+          </div>
+          <div class="button-2">
+            Clayton
+          </div>
+        </div> -->
+        <div class="special-rate">
+          <div>
+            <p>
+              15% off Bill with any two cans of non-perishable food items
+            </p>
+          </div>
+          <div id="offer-ends">
+          </div>
+        </div>
+        <script src='main.js'></script>
+    </header>
+
+    <div class='section-2-header' id='about-section'>
+      <div class='about-title'>
+        <h1>
+          About
+        </h1>
+      </div>
+    </div>
+    <div class='section-2'>
+        <p>
+          Fine dining with the most freshest and delicious ingredients should not break the bank. Here at Naomi Rae's, our philosophy is that the experience is what makes a restaurant memorable, not the prices on the menu. How do we achieve this?
+          By eliminating the middle man and sourcing everything from local farms around the St.Louis area.
+        </p>
+          </br>
+          </br>
+        <p>
+          Opened in 2015, celebrities, St.Louis visitors and loyal neighborhood residents enjoy two distinct locations: Kirkwood and Clayton. Aside from the comfortable and inviting atmosphere, Naomi Rae's offers classic cocktails, an extensive wine list, premium
+          steaks, fresh fish, and delicate desserts.
+        </p>
+      </div>
+
+    <div class='seating'>
+      <div class='seating-title'>
+        <h1>
+          Our Recognition
+        </h1>
+        <p>
+          Riverfront Times awarded Naomi Rae's 'Best New Restaurant' in 2015 and is the winner of three James Beard Foundation Awards.
+        </p>
+      </div>
+    </div>
+
+    <div class="specials-container" id="specials-section">
+      <h1>Specials</h1>
+      <div class="mySlides fade">
+        <img src="salmon-7.jpg" alt="salmon">
+        <div class="text">
+          Pan Seared Salmon<br><span style='font-size:22px;'>With Roasted Peppers and Asparagus</span>
+        </div>
+      </div>
+      <div class="mySlides fade">
+        <img src="steak.jpg" alt="steak">
+        <div class="text">
+          Grass Fed Filet Mignon<br><span style='font-size:22px;'>With Sauteed Mushrooms</span>
+        </div>
+      </div>
+      <div class="mySlides fade">
+        <img src="pork-chop.jpg" alt="pork chop">
+        <div class="text">
+          Boneless Pork Chop<br><span style='font-size:22px;'>With cider-dijon pan sauce</span>
+        </div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1
+        }
+        if (n < 1) {
+          slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = 'none';
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace('active','');
+        }
+        slides[slideIndex-1].style.display = 'block';
+        dots[slideIndex-1].className += " active";
+      }
+    </script>
+
+    <div class='sign-up' id='contact-section'>
+      <h1>
+        Sign Up
+      </h1>
+      <p>
+        Be the first to know about events, holiday specials, & more!
+      </p>
+      <div class='email'>
+        <input type='text' placeholder='Email'>
+      </div>
+      <div class="submit">
+        Submit
+      </div>
+    </div>
+
+  </body>
+</html>
