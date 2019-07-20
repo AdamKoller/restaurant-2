@@ -20,7 +20,6 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size:cover;
-  height: 400px;
   background-repeat: no-repeat;
   zoom:1.4;
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('header4.jpg');
@@ -303,7 +302,7 @@ img {
   background-color: #717171;
   border: none;
   width: 20%;
-  padding: 20px 0px 0px 5px;
+  padding: 10px 0px 10px 10px;
   font-size: 25px;
   font-family: 'Julius Sans One', sans-serif;
 }
@@ -329,7 +328,39 @@ img {
   transition: .2s ease;
 }
 
+/* .links .locations p:hover {
+  cursor: pointer;
+  color:orange;
+}
+.links .additional p:hover {
+  cursor: pointer;
+  color: orange;
+} */
+
 /* ******** Contact ********** */
+.links {
+  font-family: 'Julius Sans One', sans-serif;
+  width: 100%;
+  padding: 60px 300px 130px 300px;
+}
+.links p {
+  color:orange;
+  font-size: 24px;
+}
+.links p:hover {
+  cursor: pointer;
+  color: #a5a5a5;
+}
+.locations {
+  float: left;
+}
+.additional {
+  float: right;
+}
+.locations h1,.additional h1 {
+  font-size: 34px;
+  color:#f2f2f2;
+}
 .contact {
   text-align: center;
   margin-top: 100px;
@@ -370,16 +401,11 @@ img {
 .social-links a:hover {
   color: #a5a5a5;
 }
-.additional-links {
-  color: #f2f2f2;
-  font-size: 24px;
-  margin-top: 40px;
-  font-family: 'Julius Sans One', sans-serif;
-}
-.additional-links span:hover {
+
+/* .additional-links span:hover {
   color: #a5a5a5;
   cursor: pointer;
-}
+} */
 .footer {
   color: #f2f2f2;
   font-size: 18px;

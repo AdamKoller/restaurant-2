@@ -1,0 +1,62 @@
+/* MOBILE */
+@media screen and (max-width:767px) {
+  body {
+    width: fit-content;
+  }
+  header {
+    height: 800px;
+  }
+  .name {
+    padding-top: 300px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    color: #f2f2f2;
+  }
+  header .special-rate p {
+    font-size: 26px;
+    color: #f2f2f2;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 300;
+  }
+  header #offer-ends {
+    font-size: 18px;
+    color: orange;
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 10px 0px;
+  }
+  .section-2-header  {
+  font-size: 60px;
+  }
+  .section-2 p {
+    font-size: 42px;
+    padding: 0 0;
+    margin: 0 100px;
+  }
+  .seating {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('seating.jpg');
+    width: 100%;
+    padding-bottom: 130px;
+    background-attachment: fixed;
+    color: #f2f2f2;
+    text-align: center;
+  }
+  .seating-title {
+    padding-top: 290px;
+  }
+  .seating-title h1 {
+    font-size: 60px;
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  .seating-title p {
+    font-size: 42px;
+    padding: 40px 71px;
+    line-height: 2;
+    font-family: 'Lato', sans-serif;
+  }
