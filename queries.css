@@ -52,11 +52,91 @@
   }
   .seating-title h1 {
     font-size: 60px;
-    font-family: 'Julius Sans One', sans-serif;
+    /* font-family: 'Julius Sans One', sans-serif; */
   }
   .seating-title p {
     font-size: 42px;
     padding: 40px 71px;
     line-height: 2;
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
   }
+  .specials-container {
+    width:80%;
+    /* position: relative;
+    margin: auto; */
+  }
+  .specials-container h1 {
+    font-size: 60px;
+    padding-bottom: 34px;
+    /* font-family: 'Julius Sans One', sans-serif;
+    color: #f2f2f2;
+    padding-top: 100px;
+    padding-bottom: 34px;
+    text-align: center; */
+  }
+  .sign-up {
+    height: 660px;
+  }
+  .sign-up h1{
+    font-size: 60px;
+  }
+  .sign-up p {
+    font-size: 42px;
+    line-height: 2;
+    margin: 0 50px;
+  }
+  .sign-up .email input[type=text] {
+    width: 40%;
+    font-size: 42px;
+  }
+  .submit {
+    width: 26%;
+    font-size: 42px;
+    padding: 20px 0;
+  }
+  .hours h1 {
+    font-size: 60px;
+    padding-bottom: 16px;
+  }
+  .hours p {
+    font-size: 42px;
+  }
+  .links {
+    font-family: 'Julius Sans One', sans-serif;
+    float: left;
+    padding: 60px 300px 60px 300px;
+  }
+  .links p {
+    font-size: 36px;
+    line-height: 2;
+    float: left;
+    padding: 0;
+  }
+  .links p:hover {
+    cursor: pointer;
+    color: #a5a5a5;
+  }
+  .locations {
+    float: none;
+  }
+  .additional {
+    float: none;
+    padding: 30px 0 0 0;
+  }
+  .locations h1,.additional h1 {
+    font-size: 42px;
+    float: left;
+    padding: 26px 0 10px 0;
+  }
+  .social-links h1 {
+    font-size: 42px;
+    padding-bottom: 40px;
+  }
+  .social-links a {
+    font-size: 80px;
+    padding: 0 46px 0 46px;
+  }
+  .footer {
+    font-size: 24px;
+  }
+}
