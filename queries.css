@@ -140,3 +140,96 @@
     font-size: 24px;
   }
 }
+/* Tablets */
+@media (min-width:768px) and (max-width:1199px) {
+  body {
+    width: fit-content;
+  }
+  .name {
+    padding-top: 300px;
+  }
+  .name h1 {
+    vertical-align: middle;
+  }
+  header .special-rate p {
+    font-size: 18px;
+    padding: 0 120px;
+  }
+  header #offer-ends {
+    font-size: 16px;
+    color: orange;
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 10px 0px;
+  }
+  .section-2 p {
+    margin: 0 120px;
+  }
+  .seating {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    height: 820px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('seating.jpg');
+    width: 100%;
+    padding-bottom: 130px;
+    background-attachment: fixed;
+    color: #f2f2f2;
+    text-align: center;
+  }
+  .seating-title {
+    padding-top: 290px;
+  }
+  .seating-title p {
+    padding: 40px 170px;
+  }
+  .specials-container {
+    width:80%;
+    position: relative;
+    margin: auto;
+  }
+  .sign-up p {
+    line-height: 2;
+    margin: 0 160px;
+  }
+  .sign-up .email input[type=text] {
+    width: 30%;
+    font-size: 30px;
+  }
+  .submit {
+    width: 20%;
+    font-size: 30px;
+    padding: 10px 0;
+  }
+  .sign-up {
+    height:500px;
+  }
+  .links {
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 30px 300px 60px 300px;
+  }
+  .links p {
+    font-size: 24px;
+    line-height: 2;
+    padding: 10px 0 10px;
+  }
+  .links p:hover {
+    cursor: pointer;
+    color: #a5a5a5;
+  }
+  .locations h1,.additional h1 {
+    padding-top: 30px;
+    float: none;
+  }
+  .links .additional {
+    float: none;
+  }
+  .social-links h1 {
+    font-size: 30px;
+  }
+  .social-links a {
+    font-size: 60px;
+    padding: 0px 50px 0 50px;
+  }
+}
