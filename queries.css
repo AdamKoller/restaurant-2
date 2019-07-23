@@ -233,3 +233,42 @@
     padding: 0px 50px 0 50px;
   }
 }
+/* Laptops/Desktops */
+@media screen and (min-width:1200px) {
+  .specials-container {
+    width: 820px;
+    height: 572px;
+  }
+  .text {
+    bottom:160px;
+  }
+  .prev,.next {
+    top: 58%;
+    font-size: 70px;
+    transition: 0.6s;
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 50px 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.6s ease;
+    margin-bottom: 62px;
+  }
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  .links {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+  }
+  .locations {
+    float:none;
+  }
+  .additional h1 {
+    float:none;
+  }
+}
