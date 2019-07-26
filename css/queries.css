@@ -1,0 +1,266 @@
+/* MOBILE */
+@media screen and (max-width:767px) {
+  body {
+    width: fit-content;
+  }
+  header {
+    height: 800px;
+  }
+  .name {
+    padding-top: 300px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    color: #f2f2f2;
+  }
+  header .special-rate p {
+    font-size: 26px;
+    color: #f2f2f2;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 300;
+  }
+  header #offer-ends {
+    font-size: 18px;
+    color: orange;
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 10px 0px;
+  }
+  .section-2-header  {
+  font-size: 60px;
+  }
+  .section-2 p {
+    font-size: 42px;
+    padding: 0 0;
+    margin: 0 100px;
+  }
+  .seating {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../img/seating.jpg');
+    width: 100%;
+    padding-bottom: 130px;
+    background-attachment: fixed;
+    color: #f2f2f2;
+    text-align: center;
+  }
+  .seating-title {
+    padding-top: 290px;
+  }
+  .seating-title h1 {
+    font-size: 60px;
+  }
+  .seating-title p {
+    font-size: 42px;
+    padding: 40px 71px;
+    line-height: 2;
+  }
+  .specials-container {
+    width:80%;
+  }
+  .specials-container h1 {
+    font-size: 60px;
+    padding-bottom: 34px;
+  }
+  .sign-up {
+    height: 660px;
+  }
+  .sign-up h1{
+    font-size: 60px;
+  }
+  .sign-up p {
+    font-size: 42px;
+    line-height: 2;
+    margin: 0 50px;
+  }
+  .sign-up .email input[type=text] {
+    width: 40%;
+    font-size: 42px;
+  }
+  .submit {
+    width: 26%;
+    font-size: 42px;
+    padding: 20px 0;
+  }
+  .hours h1 {
+    font-size: 60px;
+    padding-bottom: 16px;
+  }
+  .hours p {
+    font-size: 42px;
+  }
+  .links {
+    font-family: 'Julius Sans One', sans-serif;
+    float: left;
+    padding: 60px 300px 60px 300px;
+  }
+  .links p {
+    font-size: 36px;
+    line-height: 2;
+    float: left;
+    padding: 0;
+  }
+  .links p:hover {
+    cursor: pointer;
+    color: #a5a5a5;
+  }
+  .locations {
+    float: none;
+  }
+  .additional {
+    float: none;
+    padding: 30px 0 0 0;
+  }
+  .locations h1,.additional h1 {
+    font-size: 42px;
+    float: left;
+    padding: 26px 0 10px 0;
+  }
+  .social-links h1 {
+    font-size: 42px;
+    padding-bottom: 40px;
+  }
+  .social-links a {
+    font-size: 80px;
+    padding: 0 46px 0 46px;
+  }
+  .footer {
+    font-size: 24px;
+  }
+}
+/* Tablets */
+@media (min-width:768px) and (max-width:1199px) {
+  body {
+    width: fit-content;
+  }
+  .name {
+    padding-top: 300px;
+  }
+  .name h1 {
+    vertical-align: middle;
+  }
+  header .special-rate p {
+    font-size: 18px;
+    padding: 0 120px;
+  }
+  header #offer-ends {
+    font-size: 16px;
+    color: orange;
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 10px 0px;
+  }
+  .section-2 p {
+    margin: 0 120px;
+  }
+  .seating {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    height: 820px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('seating.jpg');
+    width: 100%;
+    padding-bottom: 130px;
+    background-attachment: fixed;
+    color: #f2f2f2;
+    text-align: center;
+  }
+  .seating-title {
+    padding-top: 290px;
+  }
+  .seating-title p {
+    padding: 40px 170px;
+  }
+  .specials-container {
+    width:80%;
+    position: relative;
+    margin: auto;
+  }
+  .sign-up p {
+    line-height: 2;
+    margin: 0 160px;
+  }
+  .sign-up .email input[type=text] {
+    width: 30%;
+    font-size: 30px;
+  }
+  .submit {
+    width: 20%;
+    font-size: 30px;
+    padding: 10px 0;
+  }
+  .sign-up {
+    height:500px;
+  }
+  .links {
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 30px 300px 60px 300px;
+  }
+  .links p {
+    font-size: 24px;
+    line-height: 2;
+    padding: 10px 0 10px;
+  }
+  .links p:hover {
+    cursor: pointer;
+    color: #a5a5a5;
+  }
+  .locations h1,.additional h1 {
+    padding-top: 30px;
+    float: none;
+  }
+  .links .additional {
+    float: none;
+  }
+  .social-links h1 {
+    font-size: 30px;
+  }
+  .social-links a {
+    font-size: 60px;
+    padding: 0px 50px 0 50px;
+  }
+}
+
+/* Laptops */
+@media screen and (min-width:1200px) {
+  .specials-container {
+    width: 820px;
+    height: 572px;
+  }
+  .text {
+    bottom:160px;
+  }
+  .prev,.next {
+    top: 58%;
+    font-size: 70px;
+    transition: 0.6s;
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 50px 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.6s ease;
+    margin-bottom: 62px;
+  }
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  .links {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+  }
+  .locations {
+    float:none;
+  }
+  .additional h1 {
+    float:none;
+  }
+}
