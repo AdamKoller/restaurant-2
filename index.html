@@ -152,20 +152,20 @@
     </div>
 
     <!-- popup -->
-    <div id='popup' class="myPopup">
+    <div id='myPopup' class="popup">
       <div class="popup-content">
         <div class="popup-header">
           <span class='close-button'>
             <i class="fas fa-times"></i>
           </span>
-          <h2>Thank You!</h2>
         </div>
+        <h2>Thank You!</h2>
         <div class="popup-body">
           <p>
             Please Check Your Inbox
           </p>
           <p>
-            You'll Be Glad You Did...
+            <span>You'll Be Glad You Did...</span>
           </p>
         </div>
         <!-- <div class='name-section'>
@@ -176,6 +176,19 @@
         </div> -->
       </div>
     </div>
+    <script>
+      var popup = document.getElementById('myPopup');
+      var btn = document.getElementById('submit-button');
+      var close = document.getElementsByClassName('close-button')[0];
+
+      btn.onclick = function() {
+        popup.style.display = 'block';
+      }
+      close.onclick = function() {
+        popup.style.display = 'none';
+      }
+    </script>
+
     <div class='contact'>
       <div class='hours'>
         <h1>Hours</h1>
