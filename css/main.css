@@ -51,11 +51,16 @@ header {
   color:#a5a5a5;
 }
 .name {
-  padding-top: 220px;
   font-family: 'Julius Sans One', sans-serif;
   font-size: 66px;
   font-weight: 400;
   color: #f2f2f2;
+  position: absolute;
+  margin: auto;
+  margin-left: -200px;
+  margin-top: -50px;
+  top: 50%;
+  left: 50%;
 }
 header .special-rate {
   background-color: rgba(0,0,0,0.6);
@@ -283,30 +288,6 @@ img {
 .sign-up input:focus {
   outline: none;
 }
-/* .sign-up .email {
-  font-size: 30px;
-  text-align: center;
-  color: white;
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-.sign-up .email input {
-  outline: none;
-  border-radius: 5px;
-}
-.sign-up .email input[type=text] {
-  color: white;
-  background-color: #717171;
-  border: none;
-  width: 20%;
-  padding: 10px 0px 10px 10px;
-  font-size: 25px;
-  font-family: 'Julius Sans One', sans-serif;
-}
-.sign-up .email input::placeholder {
-  color:#a5a5a5;
-  font-family: 'Julius Sans One', sans-serif;
-} */
 .sign-up .submit {
   border: 1px solid #f2f2f2;
   border-radius: 5px;
@@ -400,62 +381,6 @@ img {
   font-size: 20px;
   color: #f2f2f2;
 }
-/* #popup {
-  font-family: 'Julius Sans One', sans-serif;
-  position: absolute;
-  z-index: 10;
-  border: 3px solid #f2f2f2;
-  border-radius: 5px;
-  text-align: center;
-  width: 50%;
-  height: 50%;
-  display: none;
-}
-#popup .close-button {
-  float: right;
-}
-#popup .close-button:hover {
-  cursor: pointer;
-}
-#popup .close-button i {
-  color: orange;
-}
-#popup .name-section {
-  padding: 40px 0 32px 0;
-}
-.sign-up i {
-  padding-right: 10px;
-  font-size: 36px;
-  color: orange;
-  vertical-align: middle;
-}
-#popup h2 {
-  font-size: 42px;
-  font-family: 'Julius Sans One', sans-serif;
-  color:#f2f2f2;
-  background: #333333;
-  padding-top: 44px;
-  padding-bottom: 40px;
-}
-.sign-up input {
-  width: 30%;
-  padding: 8px;
-  font-size: 20px;
-  font-family: 'Julius Sans One', sans-serif;
-}
-#submit {
-  text-decoration: none;
-  display: block;
-  border: 1px solid #f2f2f2;
-  border-radius: 5px;
-  background: #f2f2f2;
-  color: #252525;
-  margin: 32px auto;
-  padding: 6px;
-  width: 20%;
-  font-size: 24px;
-  font-family: 'Julius Sans One', sans-serif;
-} */
 
 /* ******** Contact ********** */
 .links {
@@ -466,13 +391,14 @@ img {
 .links p {
   color:orange;
   font-size: 24px;
+  line-height: 2;
 }
 .links p:hover {
   cursor: pointer;
   color: #a5a5a5;
 }
 .locations {
-  float: left;
+  float: none;
 }
 .additional h1 {
   float: right;
@@ -524,11 +450,6 @@ img {
 .social-links a:hover {
   color: #a5a5a5;
 }
-
-/* .additional-links span:hover {
-  color: #a5a5a5;
-  cursor: pointer;
-} */
 .footer {
   color: #f2f2f2;
   font-size: 18px;
