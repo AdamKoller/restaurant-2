@@ -40,7 +40,6 @@
           <div id="offer-ends">
           </div>
         </div>
-        <script src='js/main.js'></script>
     </header>
 
     <div class='section-2-header' id='about-section'>
@@ -51,17 +50,17 @@
       </div>
     </div>
     <div class='section-2'>
-        <p>
-          Fine dining with the most freshest and delicious ingredients should not break the bank. Here at Naomi Rae's, our philosophy is that the experience is what makes a restaurant memorable, not the prices on the menu. How do we achieve this?
-          By eliminating the middle man and sourcing everything from local farms around the St.Louis area.
-        </p>
-          </br>
-          </br>
-        <p>
-          Opened in 2015, celebrities, St.Louis visitors and loyal neighborhood residents enjoy two distinct locations: Kirkwood and Clayton. Aside from the comfortable and inviting atmosphere, Naomi Rae's offers classic cocktails, an extensive wine list, premium
-          steaks, fresh fish, and delicate desserts.
-        </p>
-      </div>
+      <p>
+        Fine dining with the most freshest and delicious ingredients should not break the bank. Here at Naomi Rae's, our philosophy is that the experience is what makes a restaurant memorable, not the prices on the menu. How do we achieve this?
+        By eliminating the middle man and sourcing everything from local farms around the St.Louis area.
+      </p>
+        </br>
+        </br>
+      <p>
+        Opened in 2015, celebrities, St.Louis visitors and loyal neighborhood residents enjoy two distinct locations: Kirkwood and Clayton. Aside from the comfortable and inviting atmosphere, Naomi Rae's offers classic cocktails, an extensive wine list, premium
+        steaks, fresh fish, and delicate desserts.
+      </p>
+    </div>
 
     <div class='seating'>
       <div class='seating-title'>
@@ -102,36 +101,6 @@
       <span class="dot" onclick="currentSlide(2)"></span>
       <span class="dot" onclick="currentSlide(3)"></span>
     </div>
-    <script>
-      var slideIndex = 1;
-      showSlides(slideIndex);
-
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
-      }
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
-      function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {
-          slideIndex = 1
-        }
-        if (n < 1) {
-          slideIndex = slides.length
-        }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = 'none';
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace('active','');
-        }
-        slides[slideIndex-1].style.display = 'block';
-        dots[slideIndex-1].className += " active";
-      }
-    </script>
 
     <div class='sign-up'  id='contact-section' method='post' onsubmit='validateEmail();'>
       <h1>
@@ -170,18 +139,6 @@
         </div>
       </div>
     </div>
-    <script>
-      var popup = document.getElementById('myPopup');
-      var btn = document.getElementById('submit-button');
-      var close = document.getElementsByClassName('close-button')[0];
-
-      btn.onclick = function() {
-        popup.style.display = 'block';
-      }
-      close.onclick = function() {
-        popup.style.display = 'none';
-      }
-    </script>
 
     <div class='contact'>
       <div class='hours'>
@@ -239,5 +196,6 @@
       </div>
     </div>
 
+    <script src='js/main.js'></script>
   </body>
 </html>
