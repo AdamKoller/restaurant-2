@@ -78,6 +78,12 @@
     font-size: 26px;
     padding: 12px 0;
   }
+  .popup .popup-content {
+    height: 30%;
+  }
+  .popup .popup-content h2 {
+    padding: 60px 0 20px 0;
+  }
   .hours h1 {
     font-size: 60px;
     padding-bottom: 16px;
