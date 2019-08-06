@@ -48,7 +48,7 @@ header {
 }
 .navbar-1 a:hover {
   cursor: pointer;
-  color:#a5a5a5;
+  color:orange;
 }
 .name {
   font-family: 'Julius Sans One', sans-serif;
@@ -88,12 +88,13 @@ header #offer-ends {
   text-align: center;
   padding-bottom: 16px;
   color: #f2f2f2;
+  font-size: 30px;
 }
 .section-2-header .about-title:after {
   content: "";
   display: block;
   margin: 0 auto;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid orange;
   width: 30%;
   padding-top: 12px;
 }
@@ -169,7 +170,7 @@ font-weight: 400;
   content: "";
   display: block;
   margin: 0 auto;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid orange;
   width: 48%;
   padding-top: 12px;
 }
@@ -383,33 +384,20 @@ img {
 }
 
 /* ******** Contact ********** */
-.links {
-  font-family: 'Julius Sans One', sans-serif;
-  width: 100%;
-  padding: 60px 300px 130px 300px;
-}
-.links p {
-  color:orange;
-  font-size: 24px;
-  line-height: 2;
-}
-.links p:hover {
-  cursor: pointer;
-  color: #a5a5a5;
-}
-.locations {
-  float: none;
-}
-.additional h1 {
-  float: right;
-}
-.locations h1,.additional h1 {
-  font-size: 34px;
-  color:#f2f2f2;
-}
 .contact {
   text-align: center;
   margin-top: 100px;
+}
+.links {
+  font-size: 30px;
+  margin-top: 50px;
+  font-family: 'Julius Sans One', sans-serif;
+  width: 100%;
+  color:#f2f2f2;
+}
+.links span:hover {
+  cursor: pointer;
+  color: orange;
 }
 .hours {
   color: #f2f2f2;
@@ -425,7 +413,7 @@ img {
   content: "";
   display: block;
   margin: 0 auto;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid orange;
   width: 30%;
   padding-top: 12px;
 }
@@ -438,7 +426,7 @@ img {
 .social-links h1 {
   font-size: 24px;
   color:#f2f2f2;
-  margin-top: 40px;
+  margin-top: 100px;
   padding-bottom: 16px;
   font-family: 'Julius Sans One', sans-serif;
 }
@@ -448,7 +436,7 @@ img {
   padding: 0 20px 0 20px;
 }
 .social-links a:hover {
-  color: #a5a5a5;
+  color: orange;
 }
 .footer {
   color: #f2f2f2;
