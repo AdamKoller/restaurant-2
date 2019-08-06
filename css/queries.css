@@ -4,34 +4,56 @@
     width: fit-content;
   }
   header {
-    height: 800px;
+    height: 100%;
+  }
+  .navbar-1 {
+    padding: 10px 0 10px 0;
+  }
+  .navbar-1 div {
+    display: inline-block;
+  }
+  .navbar-1 a {
+    text-decoration: none;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #f2f2f2;
+  }
+  .name {
+    margin-left: -124px;
+    margin-top: -50px;
+    font-size: 40px;
   }
   header .special-rate p {
-    font-size: 26px;
+    font-size: 15px;
     color: #f2f2f2;
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 300;
   }
   header #offer-ends {
-    font-size: 18px;
+    font-size: 10px;
     color: orange;
     font-family: 'Julius Sans One', sans-serif;
     padding: 10px 0px;
   }
   .section-2-header  {
-  font-size: 60px;
+    margin-top: -50px;
+    font-size: 30px;
+  }
+  .section-2 {
+    margin-bottom: 50px;
   }
   .section-2 p {
-    font-size: 42px;
-    padding: 0 0;
-    margin: 0 100px;
+    font-size: 20px;
+    padding: 0 30px;
+    margin: 0 auto;
   }
   .seating {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size:cover;
-    height: 1000px;
+    height: 550px;
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../img/seating.jpg');
     width: 100%;
@@ -41,93 +63,110 @@
     text-align: center;
   }
   .seating-title {
-    padding-top: 290px;
+    padding-top: 150px;
+    font-size: 36px;
   }
   .seating-title h1 {
-    font-size: 60px;
+    font-size: 30px;
   }
   .seating-title p {
-    font-size: 42px;
-    padding: 40px 71px;
+    font-size: 20px;
+    padding: 40px 30px;
     line-height: 2;
   }
   .specials-container {
     width:80%;
+    margin-top: -50px;
   }
   .specials-container h1 {
-    font-size: 60px;
+    font-size: 30px;
     padding-bottom: 34px;
   }
+  img {
+    height: 260px;
+  }
+  .text {
+    font-size: 20px;
+    padding: 0 50px 0 50px;
+    top: 64%;
+  }
+  .text span {
+    font-size: 12px !important;
+  }
+  .prev,.next {
+    top: 64%;
+  }
+  .myDot {
+    margin-bottom: -50px;
+  }
   .sign-up {
-    height: 660px;
+    height: 480px;
   }
   .sign-up h1{
-    font-size: 60px;
+    font-size: 30px;
+    padding-top: 50px;
   }
   .sign-up p {
-    font-size: 42px;
+    font-size: 20px;
     line-height: 2;
     margin: 0 50px;
   }
-  .sign-up .email input[type=text] {
-    width: 40%;
-    font-size: 42px;
+  .sign-up input {
+    width: 60%;
+    padding: 4px;
+    font-size: 20px;
+    font-family: 'Julius Sans One', sans-serif;
+    background: #717171;
+    color: #f2f2f2;
+  }
+  .sign-up input::placeholder {
+    color: #f2f2f2;
+  }
+  .sign-up input:focus {
+    outline: none;
   }
   .sign-up .submit {
-    width: 15%;
+    width: 30%;
     font-size: 26px;
     padding: 12px 0;
   }
   .popup .popup-content {
-    height: 30%;
+    height: 60%;
+    width: 60%;
   }
   .popup .popup-content h2 {
     padding: 60px 0 20px 0;
+    font-size: 30px;
+  }
+  .popup-body {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  .popup-body span {
+    font-size: 16px;
+    padding-top: 5px;
   }
   .hours h1 {
-    font-size: 60px;
+    font-size: 30px;
     padding-bottom: 16px;
+    margin-top: -50px;
   }
   .hours p {
-    font-size: 42px;
-  }
-  .links {
-    font-family: 'Julius Sans One', sans-serif;
-    float: left;
-    padding: 60px 300px 60px 300px;
-  }
-  .links p {
-    font-size: 36px;
-    line-height: 2;
-    float: left;
-    padding: 0;
-  }
-  .links p:hover {
-    cursor: pointer;
-    color: #a5a5a5;
-  }
-  .locations {
-    float: none;
-  }
-  .additional {
-    float: none;
-    padding: 30px 0 0 0;
-  }
-  .locations h1,.additional h1 {
-    font-size: 42px;
-    float: left;
-    padding: 26px 0 10px 0;
+    font-size: 20px;
   }
   .social-links h1 {
-    font-size: 42px;
-    padding-bottom: 40px;
+    font-size: 30px;
+    padding-bottom: 20px;
   }
   .social-links a {
-    font-size: 80px;
-    padding: 0 46px 0 46px;
+    font-size: 50px;
+    padding: 0 20px 0 32px;
+  }
+  .links {
+    font-size: 20px;
   }
   .footer {
-    font-size: 24px;
+    font-size: 16px;
   }
 }
 /* Tablets */
@@ -189,26 +228,6 @@
   .sign-up {
     height:590px;
   }
-  .links {
-    font-family: 'Julius Sans One', sans-serif;
-    padding: 30px 300px 60px 300px;
-  }
-  .links p {
-    font-size: 24px;
-    line-height: 2;
-    padding: 10px 0 10px;
-  }
-  .links p:hover {
-    cursor: pointer;
-    color: #a5a5a5;
-  }
-  .locations h1,.additional h1 {
-    padding-top: 30px;
-    float: none;
-  }
-  .links .additional {
-    float: none;
-  }
   .social-links h1 {
     font-size: 30px;
   }
@@ -246,14 +265,5 @@
   .active, .dot:hover {
     background-color: orange;
   }
-  .links {
-    display: grid;
-    grid-template-columns: 3fr 3fr;
-  }
-  .locations {
-    float:none;
-  }
-  .additional h1 {
-    float:none;
-  }
 }
+
