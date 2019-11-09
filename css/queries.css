@@ -6,24 +6,6 @@
   header {
     height: 100%;
   }
-  .navbar-1 {
-    padding: 10px 0 10px 0;
-  }
-  .navbar-1 div {
-    display: inline-block;
-  }
-  .navbar-1 a {
-    text-decoration: none;
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-    color: #f2f2f2;
-  }
-  .name {
-    margin-left: -124px;
-    margin-top: -50px;
-    font-size: 40px;
-  }
   header .special-rate p {
     font-size: 12px;
     color: #f2f2f2;
@@ -35,6 +17,24 @@
     color: orange;
     font-family: 'Julius Sans One', sans-serif;
     padding: 10px 0px;
+  }
+  .navbar-1 {
+    padding: 10px 0 10px 0;
+  }
+  .navbar-1 div {
+    display: inline-block;
+  }
+  .navbar-1 a {
+    text-decoration: none;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #f2f2f2;
+  }
+  .name {
+    margin-top: -20px;
+    width: 100%;
+    font-size: 34px;
   }
   .section-2-header  {
     margin-top: -50px;
@@ -109,10 +109,11 @@
   .sign-up p {
     font-size: 20px;
     line-height: 2;
-    margin: 0 50px;
+    margin: 0;
+    padding: 0 20px;
   }
   .sign-up input {
-    width: 60%;
+    width: 150px;
     padding: 4px;
     font-size: 20px;
     font-family: 'Julius Sans One', sans-serif;
@@ -126,9 +127,8 @@
     outline: none;
   }
   .sign-up .submit {
-    width: 30%;
-    font-size: 26px;
-    padding: 12px 0;
+    width: 150px;
+    font-size: 20px;
   }
   .popup .popup-content {
     height: 60%;
@@ -159,14 +159,14 @@
     padding-bottom: 20px;
   }
   .social-links a {
-    font-size: 50px;
+    font-size: 36px;
     padding: 0 20px 0 32px;
   }
   .links {
-    font-size: 20px;
+    font-size: 16px;
   }
   .footer {
-    font-size: 16px;
+    font-size: 10px;
   }
 }
 /* Tablets */
@@ -239,6 +239,9 @@
 
 /* Laptops */
 @media screen and (min-width:1200px) {
+  .navbar-1 div {
+    padding: 0 50px;
+  }
   .specials-container {
     width: 820px;
     height: 572px;
@@ -266,4 +269,3 @@
     background-color: orange;
   }
 }
-
