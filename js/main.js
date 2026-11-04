@@ -54,15 +54,50 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-// popup message
-var popup = document.getElementById('myPopup');
-var btn = document.getElementById('submit-button');
-var close = document.getElementsByClassName('close-button')[0];
+// Demo signup form
+var signupForm = document.getElementById('signup-form');
+var signupStatus = document.getElementById('signup-status');
+var submitButton = document.getElementById('submit-button');
+var nameInput = document.getElementById('name');
+var signupSubmitting = false;
 
-btn.onclick = function() {
-  popup.style.display = 'block';
-}
-close.onclick = function() {
-  popup.style.display = 'none';
+nameInput.addEventListener('input', function() {
+  nameInput.setCustomValidity(nameInput.value.trim() ? '' : 'Please enter your first name.');
+});
+
+signupForm.addEventListener('invalid', function(event) {
+  event.target.setAttribute('aria-invalid', 'true');
+  signupStatus.className = 'form-status error';
+  signupStatus.textContent = 'Please enter your first name and a valid email address, then agree to receive promotional emails.';
+}, true);
+
+signupForm.addEventListener('input', clearSignupError);
+signupForm.addEventListener('change', clearSignupError);
+
+function clearSignupError(event) {
+  if (signupSubmitting) {
+    return;
+  }
+
+  if (event.target.validity.valid && event.target.hasAttribute('aria-invalid')) {
+    event.target.removeAttribute('aria-invalid');
+  }
+  if (!signupForm.querySelector(':invalid')) {
+    signupStatus.className = 'form-status';
+    signupStatus.textContent = '';
+  }
 }
 
+signupForm.addEventListener('submit', function(event) {
+  event.preventDefault();
+  if (signupSubmitting) {
+    return;
+  }
+
+  signupSubmitting = true;
+  submitButton.disabled = true;
+  signupStatus.className = 'form-status success';
+  signupStatus.textContent = 'Thanks for your interest. This demo did not send or save your information.';
+});
+
+submitButton.disabled = false;

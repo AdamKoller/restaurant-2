@@ -99,52 +99,19 @@
   .myDot {
     margin-bottom: -50px;
   }
-  .sign-up {
-    height: 480px;
-  }
   .sign-up h1{
     font-size: 30px;
     padding-top: 50px;
   }
-  .sign-up p {
+  .sign-up .form-intro {
     font-size: 20px;
-    line-height: 2;
-    margin: 0;
-    padding: 0 20px;
+    line-height: 1.6;
   }
-  .sign-up input {
-    width: 150px;
-    padding: 4px;
-    font-size: 20px;
-    font-family: 'Julius Sans One', sans-serif;
-    background: #717171;
-    color: #f2f2f2;
-  }
-  .sign-up input::placeholder {
-    color: #f2f2f2;
-  }
-  .sign-up input:focus {
-    outline: none;
+  .sign-up form {
+    margin-top: 24px;
   }
   .sign-up .submit {
-    width: 150px;
-    font-size: 20px;
-  }
-  .popup .popup-content {
-    height: 60%;
-    width: 60%;
-  }
-  .popup .popup-content h2 {
-    padding: 60px 0 20px 0;
-    font-size: 30px;
-  }
-  .popup-body {
-    font-size: 20px;
-    padding-top: 20px;
-  }
-  .popup-body span {
-    font-size: 16px;
-    padding-top: 5px;
+    width: 100%;
   }
   .hours h1 {
     font-size: 30px;
@@ -212,21 +179,9 @@
     position: relative;
     margin: auto;
   }
-  .sign-up p {
-    line-height: 2;
-    margin: 0 160px;
-  }
-  .sign-up .email input[type=text] {
-    width: 30%;
-    font-size: 30px;
-  }
-  .submit {
-    width: 14% !important;
-    font-size: 30px;
-    padding: 10px 0;
-  }
-  .sign-up {
-    height:590px;
+  .sign-up .form-intro {
+    line-height: 1.8;
+    margin: 0 80px;
   }
   .social-links h1 {
     font-size: 30px;

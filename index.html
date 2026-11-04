@@ -30,6 +30,9 @@
           <h1>
             <span style='color:orange;'>N</span>aomi <span style='color:orange;'>R</span>ae's
           </h1>
+          <div id="special-events">
+            <a href="">Hear About Our Special Events</a>
+          </div>
         </div>
         <div class="special-rate">
           <div>
@@ -102,43 +105,31 @@
       <span class="dot" onclick="currentSlide(3)"></span>
     </div>
 
-    <div class='sign-up'  id='contact-section' method='post' onsubmit='validateEmail();'>
-      <h1>
-        Sign Up
-      </h1>
-      <p>
-        Be the first to know about events, holiday specials, & more!
-      </p>
-      <div class='name-section'>
-        <i class="fas fa-user"></i><input id='name' type="text" name="name" placeholder="Name">
-      </div>
-      <div>
-        <i class="fas fa-envelope"></i><input id='email' type="text" name="email" placeholder="Email">
-      </div>
-      <button class="submit" id='submit-button'>
-        Submit
-      </button>
-    </div>
-
-    <!-- popup -->
-    <div id='myPopup' class="popup">
-      <div class="popup-content">
-        <div class="popup-header">
-          <span class='close-button'>
-            <i class="fas fa-times"></i>
-          </span>
+    <section class="sign-up" id="contact-section" aria-labelledby="signup-title">
+      <h1 id="signup-title">Hear About Our Special Events</h1>
+      <p class="form-intro">Sign up for occasional news and promotions from Naomi Rae's.</p>
+      <form id="signup-form">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="given-name" required
+            aria-describedby="name-hint">
+          <span class="field-hint" id="name-hint">Required</span>
         </div>
-        <h2>Thank You!</h2>
-        <div class="popup-body">
-          <p>
-            Please Check Your Inbox
-          </p>
-          <p>
-            <span>You'll Be Glad You Did...</span>
-          </p>
+        <div class="field">
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" autocomplete="email" required
+            aria-describedby="email-hint">
+          <span class="field-hint" id="email-hint">Required</span>
         </div>
-      </div>
-    </div>
+        <div class="consent">
+          <input id="marketing-consent" name="marketing-consent" type="checkbox" required>
+          <label for="marketing-consent">I agree to receive promotional emails from Naomi Rae's.</label>
+        </div>
+        <button class="submit" id="submit-button" type="submit" disabled>Sign up</button>
+        <p class="form-status" id="signup-status" role="status" aria-live="polite" aria-atomic="true"></p>
+      </form>
+      <p class="privacy-note">This demo form only checks your entries in this browser. It does not send or save your information.</p>
+    </section>
 
     <div class='contact'>
       <div class='hours'>
