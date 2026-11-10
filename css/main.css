@@ -104,7 +104,10 @@ header #offer-ends {
   text-align: center;
   padding-bottom: 16px;
   color: #f2f2f2;
-  font-size: 30px;
+}
+.section-heading {
+  font-size: 42px;
+  font-family: "Julius Sans One", sans-serif;
 }
 .section-2-header .about-title:after {
   content: "";
@@ -156,8 +159,7 @@ header #offer-ends {
 .seating-title {
   padding-top: 150px;
 }
-.seating-title h1 {
-  font-size: 42px;
+.seating-title h2 {
   font-family: "Julius Sans One", sans-serif;
 }
 .seating-title p {
@@ -176,15 +178,14 @@ header #offer-ends {
   position: relative;
   margin: auto;
 }
-.specials-container h1 {
-  font-size: 42px;
+.specials-container h2 {
   font-family: "Julius Sans One", sans-serif;
   color: #f2f2f2;
   padding-top: 100px;
   padding-bottom: 16px;
   text-align: center;
 }
-.specials-container h1:after {
+.specials-container h2:after {
   content: "";
   display: block;
   margin: 0 auto;
@@ -293,8 +294,7 @@ img {
   padding: 0 24px 48px;
   box-sizing: border-box;
 }
-.sign-up h1 {
-  font-size: 42px;
+.sign-up h2 {
   font-family: "Julius Sans One", sans-serif;
   color: orange;
   padding-top: 72px;
@@ -436,12 +436,11 @@ img {
   font-size: 24px;
   font-family: "Julius Sans One", sans-serif;
 }
-.hours h1 {
-  font-size: 42px;
+.hours h2 {
   color: #f2f2f2;
   padding-bottom: 16px;
 }
-.hours h1:after {
+.hours h2:after {
   content: "";
   display: block;
   margin: 0 auto;
@@ -455,8 +454,7 @@ img {
 .social-links {
   text-align: center;
 }
-.social-links h1 {
-  font-size: 24px;
+.social-links h3 {
   color: orange;
   margin-top: 100px;
   padding-bottom: 16px;
